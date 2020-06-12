@@ -258,16 +258,16 @@ img {
   background-color: var(--accent-color);
 }
 
-/* .footer-submit {
-  display: inline-flex;
-} */
-
-.submit-part {
-  display: flex;
-  margin-top: 20px;
+.submit-title {
+  display: inline-block;
+  margin-bottom: 20px;
 }
-
+  
 .submit-form {
+  display: inline-flex;
+  margin-right: 12px;
+}
+.submit-form .form {
   width: 358px;
   height: 50px;
 
@@ -282,14 +282,12 @@ img {
   background-color: #2f303a;
 }
 
-.submit-button {
-  display: flex;
-  margin-left: 12px;
+.footer-button {
+  display: inline-flex;
 }
 
 .submit-link {
   margin-left: 10px;
-  /* padding: 13px 28px 13px; */
   align-self: center;
 }
 
@@ -322,7 +320,7 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-width: 0;
+  border: transparent;
   cursor: pointer;
 }
 
@@ -346,5 +344,5 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-width: 0;
+  border: transparent;
 }
