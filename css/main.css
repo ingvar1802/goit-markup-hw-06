@@ -284,6 +284,7 @@ img {
 
 .footer-button {
   display: inline-flex;
+  margin-left: 12px;
 }
 
 .submit-link {
